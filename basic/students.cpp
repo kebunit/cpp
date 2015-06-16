@@ -44,7 +44,7 @@ private:
 int main() {
 	cout << " Object Oriented Programming " << endl;
 	Students S1;
-	Students S2 = Students("Rambo",69,"Jakarta");
+	Students S2("Rambo",69,"Jakarta");
 	S1.printStudent();
 	S2.printStudent();
 	return 0;
